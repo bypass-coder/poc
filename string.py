@@ -45,18 +45,44 @@
 
 # string methods
 
-var = "my name is CHiRAG Raul"
+# var = "my name is isis CHiRAG Raul"
+# var= "CHIRAG"
 
 # print(var.capitalize())
 # print(var.casefold())
-print(var.center(60))
+# print(var.center(60))
+# print(var.count("is"))
+# print(var.find("is"))
+# print("-".join(['chirag','rahul','akarsh']))
+# print(var.endswith("Raul"))
+# print(var.isupper())
+# print(var.)
 
 
+# formatting of strings
 
+# age = 30
 
+# name = "chirag"
 
+# var = "my name is "+name+" and my age is "+str(age)+" yrs old."
 
+# var = "my name is {name} and my age is {age} yrs old."
 
+# print(var.format(age=age,name=name))
 
+var = "chirag"
 
+print(hex(id(var)))
 
+var = var + "Raul"
+
+print(hex(id(var)))
+
+v1 = "Chirag"
+
+print("v1-> "+hex(id(v1)))
+
+v2  = v1 + "Raul"
+
+print("v2-> "+hex(id(v2)))
